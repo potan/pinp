@@ -1,0 +1,2 @@
+# pinp
+Prolog in Prolog
