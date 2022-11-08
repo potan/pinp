@@ -10,3 +10,5 @@ process([P|T], R) :-
 loadFile(F, C) :-
   read_file_to_terms(F, L, []),
   process(L, C). 
+
+runFile(F, P, R) :- loadFile(F, D), check(P, D, R).
